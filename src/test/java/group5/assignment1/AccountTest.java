@@ -16,9 +16,9 @@ import static org.junit.Assert.*;
  *
  * @author 220126283
  */
-public class AppTest {
+public class AccountTest {
     
-    public AppTest() {
+    public AccountTest() {
     }
     
     @BeforeClass
@@ -37,14 +37,8 @@ public class AppTest {
     public void tearDown() {
     }
 
-    /**
-     * Test of main method, of class App.
-     */
     @Test
-    public void testMain() {
-        System.out.println("main");
-        String[] args = null;
-        App.main(args);
+    public void testSomeMethod() {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
